@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro'), url('../public/fonts/Acumin-RPro.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Acumin Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Italic'), url('../public/fonts/Acumin-ItPro.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Acumin Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Bold'), url('../public/fonts/Acumin-BdPro.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Acumin Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Bold Italic'), url('../public/fonts/Acumin-BdItPro.woff') format('woff');
+    }
+
+
+    body {
+        font-family: 'Acumin Pro', sans-serif;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    .container{
+        max-width: 1280px;
+        margin: 80px auto;
+    }
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .fa-solid .fa-square-poll-vertical {
+        font-size: 30px;
+    }
+    .board-container {
+        display: flex;
+        gap: 10px;
+    }
+    .board {
+        width: 33.33%;
+        height: 80vh;
+        border-radius: 30px;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+    }
+    .board-title {
+        margin-top: 15px;
+        padding: 20px;
+    }
+    .add-task-btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: auto;
+    }
+    .add-task-btn {
+        border: none;
+        padding: 15px 0;
+        background: none;
+        cursor: pointer;;
+    }
