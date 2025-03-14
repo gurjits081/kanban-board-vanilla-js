@@ -1,1 +1,1 @@
-# kanban-board-vanilla-js
+# Kanban Board in Vanilla JS.
